@@ -3,11 +3,12 @@
 
 ## How to use
 
-  npm i
+  $ npm i
 
-## How to run
+## How to run (server with hot reload at http://localhost:5173/)
 
-  npm start
+  $ npm start  
+
 
 ## About API  
 
