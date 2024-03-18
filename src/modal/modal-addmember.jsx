@@ -81,7 +81,7 @@ const Modal = ({ onClose}) => {
             Full name:{" "}
           </label>
           <input
-            className="rounded-md border-2 border-slate-400"
+            className="rounded-md border-2 border-slate-400 text-center"
             name="fullname"
             value={fullname}
             onChange={(e) => setFullname(e.target.value.toLowerCase())}
@@ -93,7 +93,7 @@ const Modal = ({ onClose}) => {
             Nickname:{" "}
           </label>
           <input
-            className="rounded-md border-2 border-slate-400"
+            className="rounded-md border-2 border-slate-400 text-center"
             name="nickname"
             value={nickname}
             onChange={(e) => setNickname(e.target.value.toLowerCase())}
