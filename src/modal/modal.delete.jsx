@@ -5,7 +5,7 @@ const ModalDelete = ({ id, onClose }) => {
   const handleDeleteConfirm = async () => {
     try {
       await axios.delete(`http://127.0.0.1:8000/member/${id}`); // Assuming your delete endpoint is configured correctly
-      console.log("Item deleted successfully with ID:", id);
+      console.log("Item deleted successfully");
       onClose(); // Close the modal after deletion
     } catch (error) {
       console.error("Error deleting item:", error);
