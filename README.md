@@ -1,30 +1,19 @@
 # React + Vite
 
 
-### How to use
+## How to use
 
-npm i
+  npm i
 
-### How to run
+## How to run
 
-npm start
+  npm start
 
-About API
+## About API  
 
-#### get method :  
- to get data member with object data  
- {  
-  "_id": ObjectID,  
-  "fullname": string,  
-  "nickname": string,  
-  "date0fbirth": string,  
-  "age": number,  
-  "gender": string,  
-  "createdate": string  
-}  
+#### get method : to get data member with object data  
 
-#### post method :  
-create data member with object data  
+#### post method : create data member with object data  
 {  
   "_id": ObjectID,  
   "fullname": string,  
@@ -47,5 +36,5 @@ create data member with object data
 }  
 
 #### delete method : delete data member by id  
- {_id: ObjectID()}
+ {_id: ObjectID}
 
